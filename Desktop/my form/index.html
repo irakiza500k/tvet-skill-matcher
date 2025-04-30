@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY SUPER FORM</title>
+  <link rel="stylesheet" href="FORM DESIGN.css">
+  <link rel="stylesheet" href="main.js">
+</head>
+<body>
+
+  <form>
+    <h3><u>REGISTRATION FORM</u></h3>
+
+    <label>First Name</label>
+    <input type="text"><br>
+
+    <label>Last Name</label>
+    <input type="text"><br>
+
+    <label>Email</label>
+    <input type="email" name="email"><br>
+     <div class="qw">
+    <label>Password</label>
+    <input type="password" id="first" placeholder="enter your password"><br>
+    <input type="password" id="Last" placeholder="confirm your password"><br>
+    
+     </div>
+
+    <label>Date of Birth</label>
+    <input type="date"><br>
+
+    <label>Gender</label>
+    <div class="options">
+      <label><input type="radio" name="gender" value="Male" required> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+      <label><input type="radio" name="gender" value="Others"> Others</label>
+    </div>
+
+    <label>Mobile</label>
+    <input type="tel" pattern="[0-9]{10}" placeholder="enter your Mobile number" required>
+
+    <label>Address</label>
+    <textarea rows="6"></textarea>
+    <button type="submit" onclick="content()">submit</button>
+    <button type="reset" value="Reset">
+  </form>
+</body>
+</html>

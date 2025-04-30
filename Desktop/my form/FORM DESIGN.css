@@ -1,0 +1,72 @@
+body {
+    background-color:lightsalmon;
+    font-family: Arial, sans-serif;
+  }
+
+  form {
+    background-color: rgb(0, 0, 0);
+    color: rgb(153, 94, 94);
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input[type="radio"] {
+    width: auto;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"], input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    background-color: #fff;
+    color: brown;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #f0f0f0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .gender-options {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    button[type="submit"],button[type="reset"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .qw{
+    width: 300px;
+    padding: 10px;
+  }
