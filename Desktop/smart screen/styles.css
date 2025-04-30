@@ -1,0 +1,169 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  color:rgb(71, 70, 70);
+  margin: 0;
+  padding: 0;
+}
+
+
+.m-0 { margin: 0; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-6 { margin-top: 1.5rem; }
+.p-6 { padding: 1.5rem; }
+.p-4 { padding: 1rem; }
+.p-2 { padding: 0.5rem; }
+.text-center { text-align: center; }
+.text-white { color: white; }
+.text-gray-800 { color: #333; }
+.bg-blue-600 { background-color: #2563eb; }
+.bg-blue-500 { background-color: #3b82f6; }
+.bg-gray-50 { background-color: #f9fafb; }
+.bg-gray-800 { background-color: #1f2937; }
+.text-2xl { font-size: 1.5rem; font-weight: 700; }
+.text-3xl { font-size: 1.875rem; font-weight: 700; }
+.text-lg { font-size: 1.125rem; }
+.font-bold { font-weight: 700; }
+.font-sans { font-family: 'Arial', sans-serif; }
+.hover\:underline:hover { text-decoration: underline; }
+.hover\:bg-gray-200:hover { background-color: #e5e7eb; }
+
+
+header {
+  background-color: #f2f3f4;
+  color:blue;
+  padding: 0.2%;
+  }
+
+header nav a {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+nav a.button {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.hero {
+  background-color: #3b82f6;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero button {
+  margin-top: 1.5rem;
+  background-color: white;
+  color: #3b82f6;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+section {
+  padding: 4rem 1rem;
+}
+
+.section-light {
+  background-color: #f9fafb;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+footer .links,
+footer .contact,
+footer .social {
+  display: inline-block;
+  vertical-align: top;
+  margin: 100px;
+  display: inline inline-block;
+  justify-content: space-between;
+}
+
+footer .links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .links ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .links ul li a {
+  color: white;
+  font-weight: 600;
+}
+
+footer .social a {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: white;
+}
+
+footer .social a:hover {
+  color: #2563eb;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .links,
+  .contact,
+  .social {
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
