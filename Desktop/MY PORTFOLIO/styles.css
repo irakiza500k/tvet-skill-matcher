@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  body {
+    font-family:poppins, sans-serif;
+    background-color: #1E1E2F;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2C2C3A;
+
+    padding: 30px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile {
+    text-align: center;
+    
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+  }
+  
+  .profile h3 {
+    font-size: 20px;
+
+  }
+  
+  .profile p {
+    font-size: 18px;
+    color: #8d5e5e;
+  }
+  
+  .menu a {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color:#f56a6a;
+    font-size: 20px;
+  }
+  
+  .menu a:hover {
+    color:cyan;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    
+  }
+  .icons :hover{
+    color: cyan;
+  }
+  
+  .icons img {
+    width: 29px;
+    height: 29px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro {
+    max-width: 600px;
+  }
+  
+  .welcome-text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: #f56a6a;
+  }
+  
+  .describe {
+    margin-top: 20px;
+    font-size: 16px;
+    color:rgb(120, 114, 111);
+  }
+  .link :hover{
+    color: cyan;
+  }
+  
+  .profile-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    mix-blend-mode: screen;
+  }
+  

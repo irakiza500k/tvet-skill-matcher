@@ -1,0 +1,17 @@
+.container{
+  background-color:skyblue;
+  height: 100px;
+  width: 40%;
+  border-radius:8px;
+}
+form{
+  width:50%;
+  height: 60px;
+}
+input{
+  height: 20px;
+}
+input:focus{
+  color: green;
+  background-color: grey;
+}
