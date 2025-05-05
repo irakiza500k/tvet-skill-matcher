@@ -1,17 +1,74 @@
-.container{
-  background-color:skyblue;
-  height: 100px;
-  width: 40%;
-  border-radius:8px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 20px;
 }
-form{
-  width:50%;
-  height: 60px;
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-input{
-  height: 20px;
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-input:focus{
-  color: green;
-  background-color: grey;
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
 }
