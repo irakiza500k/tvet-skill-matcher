@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
         li.addEventListener('click', () => {
             li.classList.toggle('completed');
         });
+        li.setAttribute('draggable', 'true');
 
+        li.addEventListener('dragstart', (e) => {
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'x';
         deleteBtn.className = 'delete-btn';
