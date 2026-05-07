@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b10;
+  color: white;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+a {
+  color: #ffd60a;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #1f1f2e;
+  color: white;
+}
+
+button {
+  background: #ffd60a;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+.page-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+/* CARD */
+.card {
+  background: #141420;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 214, 10, 0.2);
+}
+
+/* STATUS BADGES */
+.status {
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 12px;
+}
+
+.status.pending {
+  background: orange;
+}
+
+.status.accepted {
+  background: #00c853;
+}
+
+.status.rejected {
+  background: red;
+}
+
+/* BUTTONS */
+.actions {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn.accept {
+  background: #00c853;
+}
+
+.btn.reject {
+  background: red;
+}
