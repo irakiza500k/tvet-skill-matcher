@@ -50,7 +50,7 @@ const authReducer = (state, action) => {
         isAuthenticated: false,
         user: null,
         token: null,
-        error: action.payload,
+        error: action.payload || 'Authentication failed',
       };
     case LOGOUT:
       return {
