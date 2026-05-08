@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -37,6 +38,7 @@ export default function App() {
           }
         />
       </Routes>
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
